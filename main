@@ -58,8 +58,8 @@ sleep 1.5
 echo " "
 echo " "
 echo -e "\e[1;34mType \e[1;32mfakeroot\e[1;34m to access fake root privileges"
-echo -e "TYPE \e[1;32mroot \e TO ACCESS REAL ROOT PRIVILEGES"
-echo -e "USE \e[1;34mfish \e and type in the new shell \e[1;32mroot\e"
+echo -e "TYPE \e[1;32mroot \e[1;34m TO ACCESS REAL ROOT PRIVILEGES"
+echo -e "USE \e[1;32mfish \e[1;34m and type in the new shell \e[1;32mroot \e"
 read
 echo " "
 echo " "
