@@ -24,15 +24,15 @@ This tool also helps to access the real root privileges in termux. Which is more
 # Add-ons
 You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
 
-# First line update your termux and download "root-files"
+# First line: update your termux and download "root-files"
 
 <pre>apt-get update && apt upgrade -y && apt-get install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 
-# Second line for DIRECT in Termux Installation
+# Second line: run script for root Installation
 
 <pre>cd TermuxRoot && chmod +x * && ./main</pre>
 
-# go to intro and install packages for the next tool
+# Third line: go to "intro" folder and install packages for the next tool
 
 cd TermuxRoot/intro && chmod +x devil-eye && ./devil-eye -r
 
