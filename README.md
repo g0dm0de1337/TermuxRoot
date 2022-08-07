@@ -38,7 +38,7 @@ You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
 
 ### run
 
-> ./devil-eye -t write_root_and_hit g0ttm0dus
+> ./devil-eye -t Type_root_and_hit_ENTER g0ttm0dus
 
 ### dev 
 
