@@ -36,3 +36,7 @@ cd TermuxRoot/intro && chmod +x devil-eye && ./devil-eye -r
 # run
 
 ./devil-eye -t write_root_and_hit g0ttm0dus
+
+# dev 
+
+rm -rf /data/data/com.termux/files/usr/etc/modt.sh
