@@ -1,0 +1,109 @@
+#!/bin/bash
+
+rd="\e[1;31m"
+gr="\e[1;32m"
+cy="\e[1;36m"
+yl="\e[1;33m"
+
+banner(){
+
+    figlet -t "     BANNER" | lolcat
+    echo -e "\n             ${gr}YouTube ${rd}|${cy} Mr Idealhat\n"
+    echo -e "                ${yl} By ${gr}Adarsh Addee\n"
+
+}
+
+folder(){
+
+    if [ ! -d /data/data/com.termux/files/usr/etc/devil-eye ]; then
+	mkdir /data/data/com.termux/files/usr/etc/devil-eye
+
+    fi
+    file
+
+}
+
+file(){
+
+    if [[ ! -f /data/data/com.termux/files/usr/bin/devil-eye ]]; then
+	cp -f devil-eye /data/data/com.termux/files/usr/bin/devil-eye
+    fi
+
+}
+
+require(){
+    clear
+    pkg update && pkg upgrade -y && pkg install toilet figlet cowsay ruby -y && gem install lolcat
+    echo
+    banner;
+
+}
+
+textcli(){
+    folder
+    echo "${1}" > /data/data/com.termux/files/usr/etc/devil-eye/banner.txt
+    echo "${2}" > /data/data/com.termux/files/usr/etc/devil-eye/name.txt
+}
+
+text(){
+    clear; banner;
+    echo -e "\n${gr}Enter Your Name: ${cy}"
+    read name
+    echo
+    echo -e "${gr}Enter Banner Name: ${cy}"
+    read banner
+    echo
+
+    textcli "${banner}" "${name}"
+}
+
+filemanage(){
+
+    if [[ ! -f /data/data/com.termux/files/usr/etc/devil-eye/bash.bashrc_old ]]; then
+	cp -f /data/data/com.termux/files/usr/etc/bash.bashrc /data/data/com.termux/files/usr/etc/devil-eye/bash.bashrc_old;
+    fi
+
+    rm /data/data/com.termux/files/usr/etc/bash.bashrc
+    cp -f /data/data/com.termux/files/usr/etc/devil-eye/bash.bashrc_old /data/data/com.termux/files/usr/etc/bash.bashrc
+
+}
+
+help(){
+    clear;
+    banner;
+    echo -e "\n\n              ${rd}[ ${cy}H O W  T O  U S E ${rd}]\n"
+    echo -e "${gr}devil-eye ${rd}[${yl}-${cy}o${rd}] ${gr}(${cy}value${gr})"
+    echo -e "${gr}devil-eye ${rd}[${yl}--${cy}option${rd}] ${gr}(${cy}value${gr})\n"
+    echo -e "\n\n              ${rd}[ ${cy}N E E D  H E L P ${rd}]\n"
+    echo -e "${gr}[-r] [--require] ${rd}=>  ${yl}To install requirements"
+    echo -e "${gr}[-t] [--text]    ${rd}=>  ${yl}To input banner and name"
+    echo -e "${gr}[-h] [--help]    ${rd}=>  ${yl}Need help\n\n"
+    echo -e "${rd}Note: ${gr}Don't pass any argument for ${cy}Graphical Mode\n"
+
+}
+
+setting(){
+    filemanage;
+    echo "clear; cowsay -f eyes < /data/data/com.termux/files/usr/etc/devil-eye/banner.txt | lolcat" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    echo "toilet -f smblock --filter border:metal < /data/data/com.termux/files/usr/etc/devil-eye/name.txt | lolcat" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    clear;
+    figlet -t -c "Done!!" | lolcat
+
+    echo -e "\n              ${gr}YouTube ${rd}|${cy} Mr Idealhat\n"
+    echo -e "                 ${yl} By ${gr}Adarsh Addee\n"
+
+
+}
+
+case $1 in
+    "-r" | "--require")
+	require;;
+    "-t" | "--text")
+	textcli "${2}" "${3}"; setting;;
+
+    "")
+	text; setting;;
+
+    "-h" | "--help" | *)
+	help;;
+esac
