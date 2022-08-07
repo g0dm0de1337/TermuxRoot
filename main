@@ -59,7 +59,7 @@ echo " "
 echo " "
 echo -e "\e[1;34mType \e[1;32mfakeroot\e[1;34m to access fake root privileges"
 echo -e "TYPE \e[1;32mroot\e TO ACCESS REAL ROOT PRIVILEGES"
-echo -e "TYPE \e[1;32mfish\e and TYPE in the new Shell \e[1;32mroot\e
+echo -e "Use \e[1;34mfish\e and type in the new shell \e[1;34mroot\e"
 read
 echo " "
 echo " "
