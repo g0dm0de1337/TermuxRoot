@@ -24,13 +24,16 @@ This tool also helps to access the real root privileges in termux. Which is more
 # Add-ons
 You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
 
-# One line Installation
+# First line update your termux and download "root-files"
+
 <pre>apt-get update && apt upgrade -y && apt-get install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 
-# One line DIRECT in Termux Installation
+# Second line for DIRECT in Termux Installation
+
 <pre>cd TermuxRoot && chmod +x * && ./main</pre>
 
-# go to intro
+# go to intro and install packages for the next tool
+
 cd TermuxRoot/intro && chmod +x devil-eye && ./devil-eye -r
 
 # run
@@ -39,4 +42,4 @@ cd TermuxRoot/intro && chmod +x devil-eye && ./devil-eye -r
 
 # dev 
 
-rm -rf /data/data/com.termux/files/usr/etc/motd.sh
+mv /data/data/com.termux/files/usr/etc/motd.sh /data/data/com.termux/files/usr/
