@@ -26,19 +26,19 @@ You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
 
 # First line: update your termux and download "root-files"
 
-<pre>apt-get update && apt upgrade -y && apt-get install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
+> apt-get update && apt upgrade -y && apt-get install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git
 
 # Second line: run script for root Installation
 
-<pre>cd TermuxRoot && chmod +x * && ./main</pre>
+> cd TermuxRoot && chmod +x * && ./main
 
 # Third line: go to "intro" folder and install packages for the next tool
 
-cd TermuxRoot/intro && chmod +x devil-eye && ./devil-eye -r
+> cd TermuxRoot/intro && chmod +x devil-eye && ./devil-eye -r
 
 # run
 
-./devil-eye -t write_root_and_hit g0ttm0dus
+> ./devil-eye -t write_root_and_hit g0ttm0dus
 
 # dev 
 
