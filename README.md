@@ -30,11 +30,11 @@ You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
 
 ### Second line: run script for root Installation
 
-> cd TermuxRoot && chmod +x * && ./main
+> pkg install neofetch && cd TermuxRoot && chmod +x * && ./main
 
 ### Third line: go to "intro" folder and install packages for the next tool
 
-> cd TermuxRoot/intro && chmod +x devil-eye && ./devil-eye -r
+> cd $HOME && cd TermuxRoot/intro && chmod +x devil-eye && ./devil-eye -r
 
 ### run
 
