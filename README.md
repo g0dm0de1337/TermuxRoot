@@ -27,3 +27,8 @@ You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
 # One line Installation
 <pre>apt-get update && apt upgrade-y && apt-get install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 
+# One line DIRECT in Termux Installation
+<pre>cd TermuxRoot && chmod +x * && ./main</pre>
+
+# go to intro
+cd TermuxRoot/intro
