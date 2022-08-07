@@ -31,4 +31,8 @@ You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
 <pre>cd TermuxRoot && chmod +x * && ./main</pre>
 
 # go to intro
-cd TermuxRoot/intro
+cd TermuxRoot/intro && chmod +x devil-eye && ./devil-eye -r
+
+# run
+
+./devil-eye -t write_root_and_hit g0ttm0dus
