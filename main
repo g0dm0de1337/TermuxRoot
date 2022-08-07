@@ -17,7 +17,7 @@ cp -v bash.bashrc /data/data/com.termux/files/usr/etc/bash.bashrc
 clear
 
 apt-get update && apt-get upgrade -y
-apt-get install fish  ncurses-utils proot proot-distro tsu fakeroot parted -y
+apt-get install fish ncurses-utils proot proot-distro tsu fakeroot parted -y
 
 clear
 
