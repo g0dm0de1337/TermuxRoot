@@ -35,9 +35,7 @@ echo -e "\e[1;33m                                 ROOT TERMUX"
 
 echo -e "\e[1;32m"
 
-echo "            YouTube: Adarsh Addee"
-echo "            YouTube: Mr Idealhat"
-echo "            YouTube: Mr Ideal"
+echo "            YouTube: Gott Modus"
 echo -e "\e[1;36m\n"
 echo "[*] Automation started"
 sleep 1
