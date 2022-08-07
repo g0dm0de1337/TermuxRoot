@@ -89,8 +89,8 @@ setting(){
     clear;
     figlet -t -c "Done!!" | lolcat
 
-    echo -e "\n              ${gr}YouTube ${rd}|${cy} Mr Idealhat\n"
-    echo -e "                 ${yl} By ${gr}Adarsh Addee\n"
+    echo -e "\n              ${gr}insta ${rd}|${cy} g0ttm0dus\n"
+    echo -e "                 ${yl} Root ${gr}on Non-Root Phone\n"
 
 
 }
