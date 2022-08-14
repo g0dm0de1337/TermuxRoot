@@ -26,8 +26,8 @@ You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
 
 ### Step 1: update your termux and download "root-files"
 
-> apt-get update && apt upgrade -y && apt-get install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git
-> chmod +x /data/data/com.termux/files/home/TermuxRoot/intro && chmod +x /data/data/com.termux/files/home/TermuxRoot
+<pre> apt-get update && apt upgrade -y && apt-get install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
+<pre> chmod +x /data/data/com.termux/files/home/TermuxRoot/intro && chmod +x /data/data/com.termux/files/home/TermuxRoot</pre>
 
 ### Step 2: run script for root Installation
 
