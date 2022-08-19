@@ -47,7 +47,7 @@ mv /data/data/com.termux/files/usr/etc/motd.sh /data/data/com.termux/files/usr/
 
 
 
-#one command
+# command combo
 
 <pre>apt-get update && apt upgrade -y && apt-get install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 <pre> chmod +x /data/data/com.termux/files/home/TermuxRoot/intro && chmod +x /data/data/com.termux/files/home/TermuxRoot <pre/>
