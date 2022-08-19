@@ -1,5 +1,9 @@
 # PerfektRoot without Root on android
 
+# Exploit Termux Root
+## no root on your phone
+## but root on your TERMUX
+
 <centre>
 <img src="https://github.com/g0dm0de1337/TermuxRoot/blob/main/images/img2.jpg" alt="root termux" title="root termuxnew" width="120%" />
 </centre>
