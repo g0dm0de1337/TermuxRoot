@@ -41,24 +41,26 @@ echo "            GitHub: g0dm0de1337"
 echo "             insta: g0ttm0dus"
 echo -e "\e[1;36m\n"
 echo "[*] Automation started"
-sleep 1
+sleep 0,5
 echo "[*] Syncing"
-sleep 2
+sleep 1
 echo "[*] Collecting packages"
-sleep 2
+sleep 1
 echo "[*] Preparing files"
-sleep 2
+sleep 1
 echo "[*] Providing ROOT access"
-sleep 2
-sleep 2
+sleep 1
+sleep 1
 echo "[*] DONE"
 
 sleep 1.5
 
 echo " "
 echo " "
+echo -e "USE \e[1;32mfish\e[1;34m later in a new session. Type in the new Shell \e[1;32mroot \e[1;34m"
+echo " "
+echo " "
 echo -e "TYPE NOW \e[1;32mroot \e[1;34m TO ACCESS REAL ROOT PRIVILEGES"
-echo -e "USE \e[1;32mfish\e[1;34m later in new window. Type in the new Shell \e[1;32mroot \e[1;34m"
 read
 echo " "
 echo " "
