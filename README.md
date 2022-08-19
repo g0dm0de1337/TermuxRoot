@@ -8,7 +8,7 @@ Download: https://github.com/termux/termux-app/releases/download/v0.118.0/termux
 
 # command combo
 
-### <pre>pkg update && pkg upgrade -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
+### <pre>pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
 ### <pre>pkg install neofetch -y && cd TermuxRoot && bash main<pre/>
 # "write root and hit ENTER"
