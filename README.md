@@ -8,7 +8,7 @@
 
 ### <pre>pkg update && pkg upgrade -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
-### <pre>pkg install neofetch -y && sh /data/data/com.termux/files/home/TermuxRoot/main && sh /data/data/com.termux/files/home/TermuxRoot/intro/devil-eye -r && sh data/data/com.termux/files/home/TermuxRoot/intro/devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
+### <pre>pkg install neofetch -y && cd TermuxRoot && bash main && cd intro && bash devil-eye -r && bash devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
 
  Root is an automated tool which help you to gain to access of fake root privileges and real root privileges without rooting your device. You don't need to install any other OS to gain the root privileges in your termux. This tool(ROOT) is specifically made for termux and termux users. This tool will also help you to gain the look of Kali-Linux in your termux with root access.<br><br>
 
