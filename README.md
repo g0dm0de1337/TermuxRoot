@@ -6,7 +6,7 @@
 
 # command combo
 
-### <pre>apt-get update && apt upgrade -y && apt-get install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
+### <pre>pkg update && pkg upgrade -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ### <pre>chmod +x /data/data/com.termux/files/home/TermuxRoot/intro && chmod +x /data/data/com.termux/files/home/TermuxRoot<pre/>
 ### <pre>pkg install neofetch -y && sh /data/data/com.termux/files/home/TermuxRoot/main && sh /data/data/com.termux/files/home/TermuxRoot/intro/devil-eye -r && sh data/data/com.termux/files/home/TermuxRoot/intro/devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
 
