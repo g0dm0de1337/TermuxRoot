@@ -1,10 +1,16 @@
-# PerfektRoot without Root on android
+# Perfekt Root (exploit) on Termux
+WITHOUT su-files/-folder
+on your android
 
 # Exploit Termux Root
-## no root on your phone
-## but root on your TERMUX 
-## WITHOUT kali, debian or ubuntu system download/install !!
-## USE the orginal Termux, with root rights on your UNROOTED phone (exploit)
+### -no root on your phone
+### but root on your TERMUX 
+### -WITHOUT kali , debian , ubuntu or any other OS install !!
+### USE the orginal Termux, 
+with root-rights on your UNROOTED phone (exploit)
+
+*"main"* is an automated tool which help you to gain to access of ~fake root privileges and~ real root privileges without rooting your device. You don't need to install any other OS to gain the root privileges in your termux. This tool is specifically made for termux and termux users.<br><br>
+
 
 <centre>
 <img src="https://github.com/g0dm0de1337/TermuxRoot/blob/main/images/img2.jpg" alt="root termux" title="root termuxnew" width="120%" />
@@ -17,19 +23,16 @@ Download: https://github.com/termux/termux-app/releases/download/v0.118.0/termux
 ### <pre>pkg update -y && pkg upgrade -y && pkg install git -y && pkg install neofetch -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
 ### <pre>cd TermuxRoot && bash main<pre/>
-# "write root and hit ENTER"
+## "write root and hit ENTER"
 ### <pre>cd intro && bash devil-eye -r && bash devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
+
+____________________________________________
 
 DEV:
 ### cd /data/data/com.termux/files/usr/etc/ && mv motd /data/data/com.termux/files/usr/ && cd
 
-Failed DEV ?? Try this:
-### # cd /data/data/com.termux/files/usr/etc/ && mv motd.sh /data/data/com.termux/files/usr/ && cd
-
 
 ____________________________________________
-
- Root is an automated tool which help you to gain to access of fake root privileges and real root privileges without rooting your device. You don't need to install any other OS to gain the root privileges in your termux. This tool(ROOT) is specifically made for termux and termux users. This tool will also help you to gain the look of Kali-Linux in your termux with root access.<br><br>
 
 
 # Add-ons
