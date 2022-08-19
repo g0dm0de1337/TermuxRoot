@@ -41,7 +41,7 @@ echo "            GitHub: g0dm0de1337"
 echo "             insta: g0ttm0dus"
 echo -e "\e[1;36m\n"
 echo "[*] Automation started"
-sleep 0,5
+sleep 0.5
 echo "[*] Syncing"
 sleep 1
 echo "[*] Collecting packages"
