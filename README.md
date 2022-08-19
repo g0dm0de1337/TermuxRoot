@@ -2,7 +2,9 @@
 
 # Exploit Termux Root
 ## no root on your phone
-## but root on your TERMUX
+## but root on your TERMUX 
+## WITHOUT kali, debian or ubuntu system download/install !!
+## USE the orginal Termux, with root rights on your UNROOTED phone (exploit)
 
 <centre>
 <img src="https://github.com/g0dm0de1337/TermuxRoot/blob/main/images/img2.jpg" alt="root termux" title="root termuxnew" width="120%" />
@@ -12,14 +14,18 @@ Download: https://github.com/termux/termux-app/releases/download/v0.118.0/termux
 
 # command combo
 
-### <pre>pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
+### <pre>pkg update -y && pkg upgrade -y && pkg install git -y && pkg install neofetch -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
-### <pre>pkg install neofetch -y && cd TermuxRoot && bash main<pre/>
+### <pre>cd TermuxRoot && bash main<pre/>
 # "write root and hit ENTER"
 ### <pre>cd intro && bash devil-eye -r && bash devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
 
 DEV:
 ### cd /data/data/com.termux/files/usr/etc/ && mv motd /data/data/com.termux/files/usr/ && cd
+
+Failed DEV ?? Try this:
+### # cd /data/data/com.termux/files/usr/etc/ && mv motd.sh /data/data/com.termux/files/usr/ && cd
+
 
 ____________________________________________
 
@@ -76,4 +82,4 @@ the real root privileges in termux. Which is more powerful and stronger than fak
 <pre>pkg install neofetch -y && sh /data/data/com.termux/files/home/TermuxRoot/main && sh /data/data/com.termux/files/home/TermuxRoot/intro/devil-eye -r && sh data/data/com.termux/files/home/TermuxRoot/intro/devil-eye -t Type_root_and_hit_ENTER g0ttm0dus </pre>
 
 THX to https://github.com/adarshaddee/root
-But i copy and modify his repo, for this project
+because i copied and modified his "repo" for this project !!
