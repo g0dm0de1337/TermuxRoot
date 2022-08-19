@@ -12,16 +12,18 @@ on your android
 ### •USE the orginal Termux, 
 with root-rights on your UNROOTED phone (exploit)
 
-Download: https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_universal.apk
+Download Termux app: https://github.com/termux/termux-app/releases/
 
 # command combo
 
-### <pre>pkg update -y && pkg upgrade -y && pkg install git -y && pkg install neofetch -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
+### <pre>pkg update -y && pkg upgrade -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
 ### <pre>cd TermuxRoot && bash main<pre/>
-*--> write "root" and hit ENTER*
+*--> write "root" in the script, and hit ENTER*
 ### <pre>cd intro && bash devil-eye -r && bash devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
-
+### reboot Termux
+#### write "root" and klick ENTER 
+###### (write "fish" & klick ENTER for a special root-shell)
 
 
 ____________________________________________
