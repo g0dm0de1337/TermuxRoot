@@ -57,8 +57,8 @@ sleep 1.5
 
 echo " "
 echo " "
-echo -e "TYPE \e[1;32mroot \e[1;34m TO ACCESS REAL ROOT PRIVILEGES"
-echo -e "USE \e[1;32mfish\e[1;34m in new window. Type in the new Shell \e[1;32mroot \e[1;34m"
+echo -e "TYPE NOW \e[1;32mroot \e[1;34m TO ACCESS REAL ROOT PRIVILEGES"
+echo -e "USE \e[1;32mfish\e[1;34m later in new window. Type in the new Shell \e[1;32mroot \e[1;34m"
 read
 echo " "
 echo " "
