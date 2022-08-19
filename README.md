@@ -19,14 +19,15 @@ Download: https://github.com/termux/termux-app/releases/download/v0.118.0/termux
 ### <pre>pkg update -y && pkg upgrade -y && pkg install git -y && pkg install neofetch -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
 ### <pre>cd TermuxRoot && bash main<pre/>
-## write root and hit ENTER
+*--> write "root" and hit ENTER*
 ### <pre>cd intro && bash devil-eye -r && bash devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
+
+
 
 ____________________________________________
 
 DEV:
 ### cd /data/data/com.termux/files/usr/etc/ && mv motd /data/data/com.termux/files/usr/ && cd
-
 
 ____________________________________________
 
@@ -39,16 +40,21 @@ You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
 
 ### Step 1: update your termux and download "root-files"
 
-<pre> apt-get update && apt upgrade -y && apt-get install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
-<pre> chmod +x /data/data/com.termux/files/home/TermuxRoot/intro && chmod +x /data/data/com.termux/files/home/TermuxRoot</pre>
+<pre> pkg update -y && pkg upgrade -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
+<pre> chmod +x /data/data/com.termux/files/home/TermuxRoot/intro/devil-eye && chmod +x /data/data/com.termux/files/home/TermuxRoot/main</pre>
+or:
+cd TermuxRoot && chmod +x *
+cd intro && chmod +x *
 
 ### Step 2: run script for root Installation
 
-> pkg install neofetch && cd TermuxRoot && ./main
+> cd TermuxRoot && bash main
 
 ### Step 3: go to "intro" folder and install packages for the next tool
 
 > cd $HOME && cd TermuxRoot/intro && ./devil-eye -r
+or:
+cd intro && ./devil-eye -r
 
 ### run
 
@@ -60,28 +66,21 @@ mv /data/data/com.termux/files/usr/etc/motd.sh /data/data/com.termux/files/usr/
 
 
 
-
-# Fake Root Privileges
-the fake root privileges in termux. To access the fake root privileges in termux, just type <pre>fakeroot</pre> in termux.
-
-# Real Root Privileges
-the real root privileges in termux. Which is more powerful and stronger than fake root privileges. To access the real root privileges just type <pre>root</pre> in your termux.
-
 # Installation
 <pre>apt-get update && apt-get upgrade -y</pre>
 <pre>apt-get install git -y</pre>
 <pre>git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
-<pre>cd root</pre>
+<pre>cd TermuxRoot</pre>
 <pre>chmod +x main</pre>
+<pre>cd intro</pre>
+<pre>chmod +x devil-eye </pre>
+<pre>cd ..</pre>
 <pre>./main</pre>
+*-->Write "root" in this running script*
+<pre>cd intro</pre>
+<pre>./devil-eye -r</pre>
+<pre>./devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
 
-
-
-# command combo
-
-<pre>apt-get update && apt upgrade -y && apt-get install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
-<pre>chmod +x /data/data/com.termux/files/home/TermuxRoot/intro && chmod +x /data/data/com.termux/files/home/TermuxRoot <pre/>
-<pre>pkg install neofetch -y && sh /data/data/com.termux/files/home/TermuxRoot/main && sh /data/data/com.termux/files/home/TermuxRoot/intro/devil-eye -r && sh data/data/com.termux/files/home/TermuxRoot/intro/devil-eye -t Type_root_and_hit_ENTER g0ttm0dus </pre>
-
-THX to https://github.com/adarshaddee/root
-because i copied and modified his "repo" for this project !!
+# THX to https://github.com/adarshaddee/root because,
+# i copied and modified his "repo" for this project !!
+# THX to Termux DEV team --> https://github.com/termux/termux-app/
