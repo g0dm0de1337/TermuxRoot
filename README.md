@@ -4,6 +4,8 @@
 <img src="https://github.com/g0dm0de1337/TermuxRoot/blob/main/images/img2.jpg" alt="root termux" title="root termuxnew" width="120%" />
 </centre>
 
+Download: https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_universal.apk
+
 # command combo
 
 ### <pre>pkg update && pkg upgrade -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
