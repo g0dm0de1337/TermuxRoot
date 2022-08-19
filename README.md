@@ -35,32 +35,36 @@ ____________________________________________
 
 ____________________________________________
 
-# Add-ons
-You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
+# Step-By-Step-Tutorial
 
-### Step 1: update your termux and download "root-files"
+# Step 1: update your termux and download "root-files"
 
-<pre> pkg update -y && pkg upgrade -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
-<pre> chmod +x /data/data/com.termux/files/home/TermuxRoot/intro/devil-eye && chmod +x /data/data/com.termux/files/home/TermuxRoot/main</pre>
-or:
-cd TermuxRoot && chmod +x *
-cd intro && chmod +x *
+> <pre> pkg update -y && pkg upgrade -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
+> <pre> chmod +x /data/data/com.termux/files/home/TermuxRoot/intro/devil-eye && chmod +x /data/data/com.termux/files/home/TermuxRoot/main</pre>
 
-### Step 2: run script for root Installation
+#### or chmod manuell:
+
+1.
+> cd TermuxRoot && chmod +x *
+2.
+> cd intro && chmod +x * && cd
+
+
+# Step 2: run script for root Installation
 
 > cd TermuxRoot && bash main
 
-### Step 3: go to "intro" folder and install packages for the next tool
+# Step 3: go to "intro" folder and install packages for the next tool
 
 > cd $HOME && cd TermuxRoot/intro && ./devil-eye -r
-or:
+#### or install manuell:
 cd intro && ./devil-eye -r
 
-### run
+# run
 
 > ./devil-eye -t Type_root_and_hit_ENTER g0ttm0dus
 
-### dev 
+# dev 
 
 mv /data/data/com.termux/files/usr/etc/motd.sh /data/data/com.termux/files/usr/
 
@@ -81,6 +85,10 @@ mv /data/data/com.termux/files/usr/etc/motd.sh /data/data/com.termux/files/usr/
 <pre>./devil-eye -r</pre>
 <pre>./devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
 
-# THX to https://github.com/adarshaddee/root because,
-# i copied and modified his "repo" for this project !!
-# THX to Termux DEV team --> https://github.com/termux/termux-app/
+Add-ons
+You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
+
+
+## THX to https://github.com/adarshaddee/root because,
+## i copied and modified his "repo" for this project !!
+## THX to Termux DEV team --> https://github.com/termux/termux-app/
