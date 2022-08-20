@@ -16,7 +16,7 @@ Download Termux app: https://github.com/termux/termux-app/releases/
 
 # command combo
 
-### <pre>pkg up -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
+### <pre>apt-get update -y && apt-get upgrade -y && pkg up -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
 ### <pre>cd TermuxRoot && bash main<pre/>
 *--> write "root" in the script, and hit ENTER*
