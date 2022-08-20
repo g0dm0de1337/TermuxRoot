@@ -61,7 +61,7 @@ echo -e "\e[1;34mUSE \e[1;32mfish\e[1;34m later in a new session.\e[1;34m"
 echo -e "\e[1;32mType in the new Shell \e[1;32m\e[1;34mroot \e[1;34m"
 echo " "
 echo " "
-echo -e "TYPE NOW \e[1;32mroot \e[1;34m TO ACCESS REAL ROOT PRIVILEGES"
+echo -e "WRITE NOW \e[1;32mroot \e[1;34m TO ACCESS REAL ROOT PRIVILEGES"
 read
 echo " "
 echo " "
