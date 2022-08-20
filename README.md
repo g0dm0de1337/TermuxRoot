@@ -16,7 +16,7 @@ Download Termux app: https://github.com/termux/termux-app/releases/
 
 # command combo
 
-### <pre>pkg update -y && pkg upgrade -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
+### <pre>pkg up -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
 ### <pre>cd TermuxRoot && bash main<pre/>
 *--> write "root" in the script, and hit ENTER*
@@ -39,7 +39,7 @@ ____________________________________________
 
 # Step-By-Step-Tutorial
 
-# Step 1: update your termux and download "root-files"
+## Step 1: update your termux and download "root-files":
 
 > <pre> pkg update -y && pkg upgrade -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 > <pre> chmod +x /data/data/com.termux/files/home/TermuxRoot/intro/devil-eye && chmod +x /data/data/com.termux/files/home/TermuxRoot/main</pre>
@@ -52,17 +52,17 @@ ____________________________________________
 > cd intro && chmod +x * && cd
 
 
-# Step 2: run script for root Installation
+## Step 2: run script for root install:
 
 > cd TermuxRoot && bash main
 
-# Step 3: go to "intro" folder and install packages for the next tool
+## Step 3: go to "intro" folder and install packages for the next tool:
 
 > cd $HOME && cd TermuxRoot/intro && ./devil-eye -r
 #### or install manuell:
 cd intro && ./devil-eye -r
 
-# run
+# start & run:
 
 > ./devil-eye -t Type_root_and_hit_ENTER g0ttm0dus
 
@@ -72,25 +72,34 @@ mv /data/data/com.termux/files/usr/etc/motd.sh /data/data/com.termux/files/usr/
 
 
 
-# Installation
-<pre>apt-get update && apt-get upgrade -y</pre>
-<pre>apt-get install git -y</pre>
+# single-commands to install:
+<pre>apt-get update -y</pre>
+<pre>apt-get upgrade -y</pre>
+<pre>pkg up -y</pre>
+<pre>pkg install git -y</pre>
 <pre>git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 <pre>cd TermuxRoot</pre>
 <pre>chmod +x main</pre>
 <pre>cd intro</pre>
-<pre>chmod +x devil-eye </pre>
+<pre>chmod +x devil-eye</pre>
 <pre>cd ..</pre>
 <pre>./main</pre>
-*-->Write "root" in this running script*
+*--> Write "root" in this running script*
 <pre>cd intro</pre>
 <pre>./devil-eye -r</pre>
 <pre>./devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
+#### reboot Termux and write "root" & hit ENTER (write "fish" for a new root-shell)
+
+
+____________
 
 Add-ons
 You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
 
 
-## THX to https://github.com/adarshaddee/root because,
+## THX to Mr. IdealHat (https://github.com/adarshaddee) because, 
 ## i copied and modified his "repo" for this project !!
-## THX to Termux DEV team --> https://github.com/termux/termux-app/
+## THX to the Termux team --> https://github.com/termux/
+
+https://github.com/adarshaddee/root
+https://github.com/termux/termux-app/
