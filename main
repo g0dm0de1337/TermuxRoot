@@ -1,8 +1,8 @@
 #! /bin/bash
 
-# Created By Adarsh Addee
+# Created By Adarsh Addee Modify By g0dm0de1337
 # Aim: To Access Root Privileges in Termux
-# Date: 27 Aug 2021
+# Date: 20 Aug 2022
 # Note: THIS TOOL IS ONLY FOR LEGAL AND FAIR USE
 
 clear
@@ -57,7 +57,7 @@ sleep 1.5
 
 echo " "
 echo " "
-echo -e "USE \e[1;32mfish\e[1;34m later in a new session.\e[1;34m"
+echo -e "\e[1;34mUSE \e[1;32mfish\e[1;34m later in a new session.\e[1;34m"
 echo -e "\e[1;32mType in the new Shell \e[1;32m\e[1;34mroot \e[1;34m"
 echo " "
 echo " "
