@@ -128,9 +128,9 @@ ___________________________
 
 
 # THX to :
-> ### Mr. IdealHat --> https://github.com/adarshaddee (because, i copied and modified his "repo" for this project !!)
-> ### the Termux team --> https://github.com/termux/ (for the app)
-> ### g0dm0de1337 --> https://github.com/g0dm0de1337/ (for this genius idea)
+> ##### Mr. IdealHat --> https://github.com/adarshaddee (because, i copied and modified his "repo" for this project !!)
+> ##### the Termux team --> https://github.com/termux/ (for the app)
+> ##### g0dm0de1337 --> https://github.com/g0dm0de1337/ (for this genius idea)
 
 #### • https://github.com/adarshaddee/root
 
