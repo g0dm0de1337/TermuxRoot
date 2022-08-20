@@ -54,19 +54,24 @@ sleep 1
 echo "[*] DONE"
 
 sleep 1.5
-
 echo " "
 echo " "
-echo -e "\e[1;34mUSE \e[1;32mfish\e[1;34m later in a new session.\e[1;34m"
-echo -e "\e[1;32mType in the new Shell \e[1;32m\e[1;34mroot \e[1;34m"
+echo -e "\e[1;39mRestart Termux & type in your rebooted terminal: \e[1;33mroot"
+sleep 3
 echo " "
 echo " "
-echo -e "WRITE NOW \e[1;32mroot \e[1;34m TO ACCESS REAL ROOT PRIVILEGES"
+echo -e "\e[1;34mUSE the new command \e[1;32mfish\e[1;34m , for a new special shell."
+sleep 3
+echo " "
+echo " "
+echo " "
+echo -e "\e[1;34mType in your new shell: \e[1;34m\e[1;36mroot \e[1;34mfor FULL ROOT in termux"
+sleep 4.5
+echo " "
+echo " "
+echo -e "\e[1;34mUse any key to \e[1;32m"close" \e[1;34mthis script."
 read
-echo " "
-echo " "
-echo " "
-echo " "
+
 
 
 
