@@ -25,11 +25,16 @@ Download Termux app: https://github.com/termux/termux-app/releases/
 #### write "root" and klick ENTER 
 ###### (write "fish" & klick ENTER for a special root-shell)
 
-
 ____________________________________________
 
 DEV:
+• first try:
+
 ### cd /data/data/com.termux/files/usr/etc/ && mv motd /data/data/com.termux/files/usr/ && cd
+
+• second try:
+
+### cd /data/data/com.termux/files/usr/etc/ && mv motd.sh /data/data/com.termux/files/usr/ && cd
 
 ____________________________________________
 
