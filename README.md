@@ -39,12 +39,12 @@ ____________________________________________
 
 # Step-By-Step-Tutorial
 
-## Step 1: update your termux and download "root-files":
+## Step 1: update your termux and download: -root-files :
 
 > <pre> pkg update -y && pkg upgrade -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 > <pre> chmod +x /data/data/com.termux/files/home/TermuxRoot/intro/devil-eye && chmod +x /data/data/com.termux/files/home/TermuxRoot/main</pre>
 
-#### or chmod manuell:
+#### failed chmod? pls install chmod manuell:
 
 1.
 > cd TermuxRoot && chmod +x *
@@ -55,6 +55,7 @@ ____________________________________________
 ## Step 2: run script for root install:
 
 > cd TermuxRoot && bash main
+> -->Write "root" in this running script
 
 ## Step 3: go to "intro" folder and install packages for the next tool:
 
@@ -66,12 +67,39 @@ cd intro && ./devil-eye -r
 
 > ./devil-eye -t Type_root_and_hit_ENTER g0ttm0dus
 
-# dev 
-
-mv /data/data/com.termux/files/usr/etc/motd.sh /data/data/com.termux/files/usr/
-
+### reboot Termux for the full ROOT effect:
+> > • exit (enter and close the app) ✓
 
 
+> > • restart Termux App ✓
+
+
+> > • run "root" for full root privileges on Termux ✓
+
+
+> > • command "fish" for a better root-shell ✓
+
+___________________________________
+# dev (one-command):
+
+> mv /data/data/com.termux/files/usr/etc/motd.sh /data/data/com.termux/files/usr/
+
+### or:
+
+>  • cd /data/data/com.termux/files/usr/etc 
+
+
+>  • ls 
+
+
+>  • rm -rf motd.sh ✓ 
+
+--or-- 
+
+>  • rm -rf motd ✓
+
+
+__________________________________
 # single-commands to install:
 <pre>apt-get update -y</pre>
 <pre>apt-get upgrade -y</pre>
@@ -88,18 +116,24 @@ mv /data/data/com.termux/files/usr/etc/motd.sh /data/data/com.termux/files/usr/
 <pre>cd intro</pre>
 <pre>./devil-eye -r</pre>
 <pre>./devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
-#### reboot Termux and write "root" & hit ENTER (write "fish" for a new root-shell)
+#### reboot Termux, write "root" & hit ENTER (write "fish" for a new root-shell)
 
 
-____________
+___________________________
 
 Add-ons
 You can use <pre>fish</pre> command to make your termux more attractive.<br><br>
 
+___________________________
 
-## THX to Mr. IdealHat (https://github.com/adarshaddee) because, 
-## i copied and modified his "repo" for this project !!
-## THX to the Termux team --> https://github.com/termux/
 
-https://github.com/adarshaddee/root
-https://github.com/termux/termux-app/
+# THX to :
+> ### Mr. IdealHat --> https://github.com/adarshaddee (because, i copied and modified his "repo" for this project !!)
+> ### the Termux team --> https://github.com/termux/ (for the app)
+> ### g0dm0de1337 --> https://github.com/g0dm0de1337/ (for this genius idea)
+
+#### • https://github.com/adarshaddee/root
+
+#### • https://github.com/termux/termux-app/
+
+##### • https://github.com/g0dm0de1337/TermuxRoot
