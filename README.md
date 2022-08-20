@@ -19,7 +19,7 @@ Download Termux app: https://github.com/termux/termux-app/releases/
 ### <pre>apt-get update -y && apt-get upgrade -y && pkg up -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
 ### <pre>cd TermuxRoot && bash main<pre/>
-*--> write "root" in the script, and hit ENTER*
+
 ### <pre>cd intro && bash devil-eye -r && bash devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
 ### reboot Termux
 #### write "root" and klick ENTER 
@@ -60,7 +60,7 @@ ____________________________________________
 ## Step 2: run script for root install:
 
 > cd TermuxRoot && bash main
-> -->Write "root" in this running script
+
 
 ## Step 3: go to "intro" folder and install packages for the next tool:
 
@@ -117,7 +117,7 @@ __________________________________
 <pre>chmod +x devil-eye</pre>
 <pre>cd ..</pre>
 <pre>./main</pre>
-*--> Write "root" in this running script*
+
 <pre>cd intro</pre>
 <pre>./devil-eye -r</pre>
 <pre>./devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
