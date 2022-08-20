@@ -41,22 +41,25 @@ echo "            GitHub: g0dm0de1337"
 echo "             insta: g0ttm0dus"
 echo -e "\e[1;36m\n"
 echo "[*] Automation started"
-sleep 0.5
+sleep 0.25
 echo "[*] Syncing"
-sleep 1
+sleep 0.5
 echo "[*] Collecting packages"
-sleep 1
+sleep 0.5
 echo "[*] Preparing files"
-sleep 1
+sleep 0.5
 echo "[*] Providing ROOT access"
-sleep 1
-sleep 1
+sleep 0.5
+sleep 0.5
 echo "[*] DONE"
 
-sleep 1.5
+sleep 2.5
+clear
 echo " "
 echo " "
-echo -e "\e[1;39mRestart Termux & type in your rebooted terminal: \e[1;33mroot"
+echo " "
+echo " "
+echo -e "\e[1;36mRestart Termux & type in your rebooted terminal: \e[1;31mroot"
 sleep 3
 echo " "
 echo " "
@@ -65,11 +68,11 @@ sleep 3
 echo " "
 echo " "
 echo " "
-echo -e "\e[1;34mType in your new shell: \e[1;34m\e[1;36mroot \e[1;34mfor FULL ROOT in termux"
+echo -e "\e[1;34mType in your new shell: \e[1;34m\e[1;31mroot \e[1;34mfor FULL ROOT in termux"
 sleep 4.5
 echo " "
 echo " "
-echo -e "\e[1;34mUse any key to \e[1;32m"close" \e[1;34mthis script."
+echo -e "\e[1;34mUse any key to \e[1;36m"close" \e[1;34mthis script."
 read
 
 
