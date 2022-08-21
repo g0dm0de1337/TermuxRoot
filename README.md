@@ -31,13 +31,9 @@ ____________________________________________
 
 
 DEV:
-• first try:
+• try this :
 
 ### cd /data/data/com.termux/files/usr/etc/ && mv motd /data/data/com.termux/files/usr/ && cd
-
-• second try:
-
-### cd /data/data/com.termux/files/usr/etc/ && mv motd.sh /data/data/com.termux/files/usr/ && cd
 
 ____________________________________________
 
