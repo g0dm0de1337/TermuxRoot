@@ -27,6 +27,7 @@ Download Termux app: https://github.com/termux/termux-app/releases/
 
 ____________________________________________
 
+
 DEV:
 • first try:
 
