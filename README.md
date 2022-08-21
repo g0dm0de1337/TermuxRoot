@@ -15,7 +15,7 @@ on your android
 with root-rights on your UNROOTED phone (exploit)
 
 Download Termux app: https://github.com/termux/termux-app/releases/
-
+copy paste link : https://anotepad.com/notes/4jjwpbp5
 # command combo
 
 ### <pre>apt-get update -y && apt-get upgrade -y && pkg up -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
