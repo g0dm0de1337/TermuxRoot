@@ -86,7 +86,7 @@ cd intro && ./devil-eye -r
 ___________________________________
 # dev (one-command):
 
-> mv /data/data/com.termux/files/usr/etc/motd.sh /data/data/com.termux/files/usr/
+> rm -rf /data/data/com.termux/files/usr/etc/motd
 
 ### or:
 
@@ -96,11 +96,11 @@ ___________________________________
 >  • ls 
 
 
->  • rm -rf motd.sh ✓ 
+>  • rm -rf motd ✓ 
 
 --or-- 
 
->  • rm -rf motd ✓
+>  • mv motd /data/data/com.termux/files/usr ✓
 
 
 __________________________________
