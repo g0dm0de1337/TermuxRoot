@@ -48,7 +48,7 @@ ____________________________________________
 > <pre> pkg update -y && pkg upgrade -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 > <pre> chmod +x /data/data/com.termux/files/home/TermuxRoot/intro/devil-eye && chmod +x /data/data/com.termux/files/home/TermuxRoot/main</pre>
 
-#### failed chmod? pls install chmod manuell:
+#### failed chmod? pls make this manuell:
 
 1.
 > cd TermuxRoot && chmod +x *
