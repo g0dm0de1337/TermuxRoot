@@ -66,6 +66,7 @@ echo -e "\e[1;36mcd intro && bash devil-eye -r && bash devil-eye -t \e[1;32mType
 sleep 5
 echo " "
 echo " "
+echo -e "\e[1;32mAfter REBOOT :"
 echo -e "\e[1;34mUSE the new command \e[1;32mfish\e[1;34m , for a new special shell."
 sleep 3
 echo " "
@@ -75,7 +76,8 @@ echo -e "\e[1;34mType in your new shell: \e[1;34m\e[1;31mroot \e[1;34mfor FULL R
 sleep 4.5
 echo " "
 echo " "
-echo -e "\e[1;34mUse any key to \e[1;36m"close" \e[1;34mthis script & PASTE the combo-command."
+echo -e "\e[1;34mUse any key to \e[1;36mclose \e[1;34mthis script"
+echo -e "\e[1;36m& PASTE the combo-command."
 read
 
 
