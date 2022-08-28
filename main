@@ -62,7 +62,7 @@ echo " "
 echo " "
 echo " "
 echo -e "\e[1;31mCOPY the next combo-command:"
-echo -e "\e[1;36mcd intro && bash devil-eye -r && bash devil-eye -t \e[1;32mType_root_and_hit_ENTER g0ttm0dus"
+echo -e "\e[1;36mcd intro && bash devil-eye -r && bash devil-eye -t Type_root_and_hit_ENTER g0ttm0dus"
 sleep 5
 echo " "
 echo " "
