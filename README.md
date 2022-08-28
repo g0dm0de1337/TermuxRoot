@@ -8,6 +8,8 @@ on your android
 <img src="https://github.com/g0dm0de1337/TermuxRoot/blob/main/images/img2.jpg" alt="root termux" title="root termuxnew" width="120%" />
 </centre>
 
+<Img src="https://raw.githubusercontent.com/g0dm0de1337/TermuxRoot/main/images/Screenshot_20220828-144432064.jpg" title="update" width="120%" />
+
 # Exploit Termux Root
 ### •no root on your phone, but root on your TERMUX 
 ### •WITHOUT kali , debian , ubuntu or any other OS install !!
