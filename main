@@ -59,7 +59,7 @@ echo " "
 echo " "
 echo " "
 echo " "
-echo -e "\e[1;36mRestart Termux & type in your rebooted terminal: \e[1;31mroot"
+echo -e "\e[1;36mcd intro && bash devil-eye -r && bash devil-eye -t \e[1;32mType_root_and_hit_ENTER g0ttm0dus"
 sleep 3
 echo " "
 echo " "
