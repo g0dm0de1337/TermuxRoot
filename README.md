@@ -25,7 +25,7 @@ copy paste link : https://anotepad.com/notes/4jjwpbp5
 ### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
 ### <pre>cd TermuxRoot && bash main<pre/>
 
-### <pre>cd intro && bash devil-eye -r && bash devil-eye -t 1.Type_root_and_hit_ENTER...___________2.Type_fish_and_hit_ENTER g0ttm0dus</pre>
+### <pre>cd intro && bash devil-eye -r && bash devil-eye -t 1.Type_root_and_hit_ENTER....._________2.Type_fish_and_hit_ENTER g0ttm0dus</pre>
 ### reboot Termux
 #### write "root" and klick ENTER 
 ###### (write "fish" & klick ENTER for a special root-shell)
