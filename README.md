@@ -37,6 +37,7 @@ DEV:
 • try this :
 
 ### cd /data/data/com.termux/files/usr/etc/ && mv motd /data/data/com.termux/files/usr/ && cd
+### curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 ____________________________________________
 
