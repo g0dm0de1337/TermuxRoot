@@ -22,12 +22,13 @@ copy paste link : https://anotepad.com/notes/4jjwpbp5
 # command combo
 
 ##### <pre>apt-get update -y && apt-get upgrade -y && pkg up -y<pre/>
-##### <pre>pkg install unzip -y && pkg install curl && pkg install ??? && pkg install neofetch -y && pkg install git -y 
+##### <pre>pkg install neofetch -y && pkg install git -y<pre/>
+##### <pre>pkg install unzip -y && pkg install curl && pkg install proot -y<pre/> 
 ##### <pre>git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ##### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
 ##### <pre>cd TermuxRoot && bash main<pre/>
-
-### <pre>cd intro && bash devil-eye -r && bash devil-eye -t 1.Type_root_and_hit_ENTER....._________2.Type_fish_and_hit_ENTER g0ttm0dus</pre>
+• Copy Output Text 1.g0ttm0dus= 2.TermuxEMU =3.TermuxTest
+### <pre>(cd intro && bash devil-eye -r && bash devil-eye -t 1.Type_root_and_hit_ENTER....._________2.Type_fish_and_hit_ENTER g0ttm0dus)</pre>
 ### reboot Termux
 #### write "root" and klick ENTER 
 ###### (write "fish" & klick ENTER for a special root-shell)
@@ -50,9 +51,13 @@ ____
 (Permission)
 ### chmod +x ~/termux-proot.sh
 ____
-(Start Emu)
+(StartEmu)
 ### ~/termux-proot.sh
-
+_____
+(NextStep)
+#####curl -sLO git.io/termux-proot.sh
+#####chmod +x termux-proot.sh
+#####./termux-proot.sh
 ____________________________________________
 
 
