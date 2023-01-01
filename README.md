@@ -27,7 +27,7 @@ copy paste link : https://anotepad.com/notes/4jjwpbp5
 ##### <pre>git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ##### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
 ##### <pre>cd TermuxRoot && bash main<pre/>
-[• Copy Output Text]
+[• Copy Output Text RED:Turquoise]
 ### <pre>(cd intro && bash devil-eye -r && bash devil-eye -t 1.Type_root_and_hit_ENTER....._________2.Type_fish_and_hit_ENTER g0ttm0dus)</pre>
 ### reboot Termux
 #### write "root" and klick ENTER 
