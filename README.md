@@ -21,17 +21,16 @@ Download Termux app: https://github.com/termux/termux-app/releases/
 copy paste link : https://anotepad.com/notes/4jjwpbp5
 # command combo
 
-### <pre>apt-get update -y && apt-get upgrade -y && pkg up -y && pkg install neofetch -y && pkg install git -y && git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
-### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
-### <pre>cd TermuxRoot && bash main<pre/>
+##### <pre>apt-get update -y && apt-get upgrade -y && pkg up -y<pre/>
+##### <pre>pkg install unzip -y && pkg install curl && pkg install ??? && pkg install neofetch -y && pkg install git -y 
+##### <pre>git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
+##### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
+##### <pre>cd TermuxRoot && bash main<pre/>
 
 ### <pre>cd intro && bash devil-eye -r && bash devil-eye -t 1.Type_root_and_hit_ENTER....._________2.Type_fish_and_hit_ENTER g0ttm0dus</pre>
 ### reboot Termux
 #### write "root" and klick ENTER 
 ###### (write "fish" & klick ENTER for a special root-shell)
-
-____________________________________________
-
 
 DEV:
 • try this :
@@ -39,7 +38,23 @@ DEV:
 ### cd /data/data/com.termux/files/usr/etc/ && mv motd /data/data/com.termux/files/usr/ && cd
 ### curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
+
+# TermuxEmu
+
+To emulate termux inside termux, Use the first version of termux-proot.
+
+____
+(Download)
+### curl -sLo ~/termux-proot.sh https://github.com/Yonle/termux-proot/raw/v1.0.0/termux
+____
+(Permission)
+### chmod +x ~/termux-proot.sh
+____
+(Start Emu)
+### ~/termux-proot.sh
+
 ____________________________________________
+
 
 *"main"* is an automated tool which help you to gain to access of ~fake root privileges and~ real root privileges without rooting your device. You don't need to install any other OS to gain the root privileges in your termux. This tool is specifically made for termux and termux users.<br><br>
 
