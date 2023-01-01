@@ -27,7 +27,7 @@ copy paste link : https://anotepad.com/notes/4jjwpbp5
 ##### <pre>git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ##### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
 ##### <pre>cd TermuxRoot && bash main<pre/>
-• Copy Output Text 1.g0ttm0dus= 2.TermuxEMU =3.TermuxTest
+[• Copy Output Text]
 ### <pre>(cd intro && bash devil-eye -r && bash devil-eye -t 1.Type_root_and_hit_ENTER....._________2.Type_fish_and_hit_ENTER g0ttm0dus)</pre>
 ### reboot Termux
 #### write "root" and klick ENTER 
@@ -39,27 +39,7 @@ DEV:
 ### cd /data/data/com.termux/files/usr/etc/ && mv motd /data/data/com.termux/files/usr/ && cd
 ### curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
-
-# TermuxEmu
-
-To emulate termux inside termux, Use the first version of termux-proot.
-
-____
-(Download)
-### curl -sLo ~/termux-proot.sh https://github.com/Yonle/termux-proot/raw/v1.0.0/termux
-____
-(Permission)
-### chmod +x ~/termux-proot.sh
-____
-(StartEmu)
-### ~/termux-proot.sh
 _____
-(NextStep)
-### curl -sLO git.io/termux-proot.sh
-### chmod +x termux-proot.sh
-(New TermuxRoot install..)
-### ./termux-proot.sh
-____________________________________________
 
 
 *"main"* is an automated tool which help you to gain to access of ~fake root privileges and~ real root privileges without rooting your device. You don't need to install any other OS to gain the root privileges in your termux. This tool is specifically made for termux and termux users.<br><br>
