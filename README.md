@@ -23,7 +23,7 @@ copy paste link : https://anotepad.com/notes/4jjwpbp5
 
 ##### <pre>apt-get update -y && apt-get upgrade -y && pkg up -y<pre/>
 ##### <pre>pkg install neofetch -y && pkg install git -y<pre/>
-##### <pre>pkg install unzip -y && pkg install curl && pkg install proot -y<pre/> 
+##### <pre>pkg install unzip -y && pkg install curl<pre/> 
 ##### <pre>git clone https://github.com/g0dm0de1337/TermuxRoot.git</pre>
 ##### <pre>cd TermuxRoot && chmod +x * && cd intro && chmod +x * && cd<pre/>
 ##### <pre>cd TermuxRoot && bash main<pre/>
