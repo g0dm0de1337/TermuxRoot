@@ -55,9 +55,10 @@ ____
 ### ~/termux-proot.sh
 _____
 (NextStep)
-#####curl -sLO git.io/termux-proot.sh
-#####chmod +x termux-proot.sh
-#####./termux-proot.sh
+### curl -sLO git.io/termux-proot.sh
+### chmod +x termux-proot.sh
+(New TermuxRoot install..)
+### ./termux-proot.sh
 ____________________________________________
 
 
