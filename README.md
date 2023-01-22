@@ -1,4 +1,7 @@
-# https://youtu.be/WOpdIo8TYtw
+# GO TO "NEWemu" FOLDER & INSTALL A TERMUX SANDBOX
+(Install a new Termux in Termux)
+
+## https://youtu.be/WOpdIo8TYtw
 
 # Perfekt Root (exploit) on Termux
 WITHOUT su-files/-folder
