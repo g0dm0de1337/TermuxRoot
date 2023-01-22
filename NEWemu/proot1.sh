@@ -1,4 +1,23 @@
+/usr/bin/env sh
 
+# termux-proot - A sandboxed, 2nd termux, isolated or jailed termux environment with proot
+# https://git.io/termux-proot
+
+[ -z $TERMUX_SANDBOX_PATH ] && export TERMUX_SANDBOX_PATH=$PREFIX/../../sandbox 
+[ -z $TERMUX_SANDBOX_APPPATH ] && export TERMUX_SANDBOX_APPPATH=/data/data/com.termux/files
+[ "$(id -u)" = "0" ] && exec echo -e "You shouldn't execute this script as root, don't you?\nSo you're trying to harm your own Device.\n\nAbility to use termux-proot with root (even fake) is disabled permanently.\nJust do it in your real termux, Or use chroot. But don't blame me for broken device OK?"
+
+# { Installation }
+[ $(uname -o) != "Android" ] && exec echo "Sorry. This script is only executeable on Android. Use Termux to exexute this or use termux-docker."
+! [ -d $TERMUX_SANDBOX_PATH ] || [ -z "$(ls -A $TERMUX_SANDBOX_PATH)" ] && {
+	! [ -f ${TMPDIR:-/tmp}/.termux-rootfs.zip ] && echo "[#  ] Downloading Latest Termux Bootstrap...." && curl -#Lo ${TMPDIR:-/tmp}/.termux-rootfs.zip https://github.com/termux/termux-packages/releases/download/$(curl -s "https://api.github.com/repos/termux/termux-packages/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")')/bootstrap-$(dpkg --print-architecture).zip
+	mkdir $TERMUX_SANDBOX_PATH && cd $TERMUX_SANDBOX_PATH
+
+	echo -n "[## ] Extracting.... "
+	unzip -q ${TMPDIR:-/tmp}/.termux-rootfs.zip
+
+	[ $? != 0 ] && echo Fail && proot -0 rm -rf $TERMUX_SANDBOX_PATH && exit 6
+	echo Done
 	echo -n "[###] Symlinking.... "
 	while read p; do
 		ln -s ${p/←/ }
