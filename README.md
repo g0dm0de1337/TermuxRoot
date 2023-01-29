@@ -1,7 +1,4 @@
-# GO TO "NEWemu" FOLDER & INSTALL A TERMUX SANDBOX
-(Install a new Termux in Termux)
 
-## https://youtu.be/WOpdIo8TYtw
 
 # Perfekt Root (exploit) on Termux
 WITHOUT su-files/-folder
@@ -130,6 +127,23 @@ __________________________________
 <pre>./devil-eye -t Type_root_and_hit_ENTER g0ttm0dus</pre>
 #### reboot Termux, write "root" & hit ENTER (write "fish" for a new root-shell)
 
+
+___________________________
+
+## FIRSTsecret: GO TO "NEWemu" FOLDER & INSTALL A TERMUX SANDBOX
+(Install a new Termux in Termux)
+## https://youtu.be/WOpdIo8TYtw
+> ...
+## SECONDsecret: 
+> pkg install proot-distro
+> proot-distro install debian
+> proot-distro login debian
+> apt update
+> apt install nano vim sudo
+> adduser g0tt
+> nano ../etc/sudoers
+[Copy the line "root   ALL=(ALL...." .. paste this unter the copy line .. edit root to g0tt]
+> su g0tt
 
 ___________________________
 
