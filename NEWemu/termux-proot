@@ -1,4 +1,4 @@
-#/usr/bin/env sh
+#!/usr/bin/env bash
 
 # termux-proot - A sandboxed, 2nd termux, isolated or jailed termux environment with proot
 # https://git.io/termux-proot
