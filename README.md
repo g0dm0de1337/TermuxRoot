@@ -135,23 +135,23 @@ ___________________________
 ## https://youtu.be/WOpdIo8TYtw
 > ...
 ## SECONDsecret: 
-> pkg install proot-distro
+> •pkg install proot-distro
 ..
-> proot-distro install debian
+> •proot-distro install debian
 ..
-> proot-distro login debian
+> •proot-distro login debian
 ..
-> apt update
+> •apt update
 ..
-> apt install nano vim sudo
+> •apt install nano vim sudo
 ..
-> adduser g0tt
+> •adduser g0tt
 ..
-> nano ../etc/sudoers
+> •sudo nano ../etc/sudoers
 ..
-[Copy the line "root   ALL=(ALL...." .. paste this unter the copy line .. edit root to g0tt]
+•[Copy the line "root   ALL=(ALL...." .. paste this unter the copy line .. edit root to g0tt]
 ..
-> su g0tt
+> •su g0tt
 
 ___________________________
 
